@@ -14,6 +14,19 @@ function sePalindroma(parolaUtente) {
     return true; 
 }
 
-let risultato = sePalindroma(parolaUtente);
-console.log(risultato ? "La parola è palindroma." : "La parola non è palindroma.");
 
+// Ottenere un numero casuale 
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * 5) + 1;
+}
+
+// Funzione per verificare se pari o dispari
+
+function parioDispari(number) {
+    if (number % 2 === 0) {
+        return true; 
+    } else {
+        return false; 
+    }
+}

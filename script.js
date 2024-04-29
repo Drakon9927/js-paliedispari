@@ -21,3 +21,5 @@ function sePalindroma(parolaUtente) {
 
 let risultato = sePalindroma(parolaUtente);
 console.log(risultato ? "La parola è palindroma." : "La parola non è palindroma.");
+
+
